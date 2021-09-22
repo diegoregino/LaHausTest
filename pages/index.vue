@@ -1,3 +1,7 @@
 <template>
-  <NavBar></NavBar>
+  <main>
+    <NavBar></NavBar>
+    <RealStatesList></RealStatesList>
+  </main>
 </template>
+
