@@ -5,9 +5,10 @@
       justify-start
       md:justify-between
       items-center
-      border-b-2
+      border-b
       px-6
       py-4
+      border-gray
     "
   >
     <div class="mr-2.5 md:hidden relative">
@@ -21,7 +22,7 @@
         title="La Haus logo"
       />
     </div>
-    <ul class="hidden md:flex text-green-900">
+    <ul class="hidden md:flex text-lh">
       <li class="px-6"><a href="">Cundinamarca</a></li>
       <li class="px-6"><a href="">Antioquia</a></li>
       <li class="px-6"><a href="">Recursos</a></li>

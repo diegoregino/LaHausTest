@@ -8,7 +8,7 @@
         flex
         justify-center
         items-center
-        bg-blue-100
+        bg-blue
         h-48
       "
     >
@@ -20,7 +20,7 @@
         />
       </div>
     </div>
-    <h3 class="text-lg text-blue-600 font-semibold mt-5 text-center">
+    <h3 class="text-lg text-blue font-semibold mt-5 text-center">
       Crear una nueva lista
     </h3>
   </div>

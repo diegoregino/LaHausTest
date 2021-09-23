@@ -1,6 +1,6 @@
 <template>
   <section class="px-6 pb-20 md:px-40">
-    <h3 class="text-green-900 text-3xl text-center font-semibold my-8 md:my-16">
+    <h3 class="text-lh text-3xl text-center font-semibold my-8 md:my-16">
       Listas de favoritos
     </h3>
     <div class="mt-6 grid md:grid-cols-2 lg:grid-cols-3 gap-x-6 gap-y-8">
@@ -25,7 +25,7 @@ export default {
   name: "RealStatesList",
   components: {
     RealState,
-    AddRealState
+    AddRealState,
   },
   data() {
     return {

@@ -1,6 +1,13 @@
 <template>
   <div class="rounded-lg overflow-hidden w-full">
-    <div class="flex h-48 relative">
+    <img
+      src="@/assets/empty-list.svg"
+      alt="Lista vacía"
+      title="Lista Vacía"
+      v-show="imagesLength === 0"
+      class="w-full object-cover"
+    />
+    <div class="flex h-48 relative" v-show="imagesLength > 0">
       <img
         v-for="(image, i) in imagesList"
         :key="image.id"
@@ -32,7 +39,7 @@
           absolute
           h-full
           left-3/4
-          bg-green-900 bg-opacity-70
+          bg-lh bg-opacity-70
           text-lg
           font-semibold
         "
@@ -41,10 +48,10 @@
       </div>
     </div>
     <article>
-      <h3 class="text-lg text-green-900 font-semibold mt-5 mb-3">
+      <h3 class="text-lg text-lh font-semibold mt-5 mb-3">
         {{ name }}
       </h3>
-      <p class="text-gray-500 text-sm">
+      <p class="text-lhGreenGray text-sm">
         {{ imagesLength }} propiedades guardadas
       </p>
     </article>
