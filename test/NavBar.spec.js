@@ -1,9 +1,9 @@
 import { mount } from "@vue/test-utils";
-import Tutorial from "@/components/Tutorial.vue";
+import NavBar from "@/components/NavBar.vue";
 
-describe("Tutorial", () => {
+describe("NavBar", () => {
   test("is a Vue instance", () => {
-    const wrapper = mount(Tutorial);
+    const wrapper = mount(NavBar);
     expect(wrapper.vm).toBeTruthy();
   });
 });

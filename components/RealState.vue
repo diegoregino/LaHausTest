@@ -37,7 +37,7 @@
           font-semibold
         "
       >
-        <span>+{{imagesLength - 2}}</span>
+        <span>+{{ imagesLength - 2 }}</span>
       </div>
     </div>
     <article>
@@ -45,7 +45,7 @@
         {{ name }}
       </h3>
       <p class="text-gray-500 text-sm">
-        {{ realStatesByCategory.length }} propiedades guardadas
+        {{ imagesLength }} propiedades guardadas
       </p>
     </article>
   </div>

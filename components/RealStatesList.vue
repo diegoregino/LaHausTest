@@ -19,11 +19,13 @@
 <script>
 import axios from "axios";
 import RealState from "@/components/RealState";
+import AddRealState from "@/components/AddRealState";
 
 export default {
   name: "RealStatesList",
   components: {
     RealState,
+    AddRealState
   },
   data() {
     return {
