@@ -7,7 +7,9 @@
       <RealState
         v-for="realState in realStatesList"
         :key="realState.id"
-        :realState="realState"
+        :realStatesByCategory="realState.realStatesByCategory"
+        :name="realState.name"
+        :id="realState.id"
       ></RealState>
       <AddRealState></AddRealState>
     </div>
@@ -42,7 +44,6 @@ export default {
       );
       return { realStatesByCategory, id, name };
     });
-    console.log(RealStateList);
     this.realStatesList = RealStateList;
   },
   methods: {
