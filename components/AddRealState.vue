@@ -1,0 +1,27 @@
+<template>
+  <div>
+    <div
+      class="
+        rounded-lg
+        overflow-hidden
+        w-full
+        flex
+        justify-center
+        items-center
+        bg-blue-100
+        h-48
+      "
+    >
+      <div>
+        <img
+          src="@/assets/plus-icon.svg"
+          alt="Add icon"
+          title="Crear una nueva lista"
+        />
+      </div>
+    </div>
+    <p class="text-lg text-blue-600 font-semibold mt-5 text-center">
+      Crear una nueva lista
+    </p>
+  </div>
+</template>
