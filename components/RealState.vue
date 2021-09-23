@@ -37,7 +37,7 @@
           font-semibold
         "
       >
-        <span>+16</span>
+        <span>+{{imagesLength - 2}}</span>
       </div>
     </div>
     <article>
@@ -62,13 +62,8 @@ export default {
     };
   },
   created() {
-    console.log(this.name);
-    console.log(this.realStatesByCategory);
     this.imagesList = this.realStatesByCategory.slice(0, 3);
     this.imagesLength = this.realStatesByCategory.length;
-    console.log(this.imagesList);
-    // console.log(this.imagesList);
-    console.log("*----------*");
   },
 };
 </script>
