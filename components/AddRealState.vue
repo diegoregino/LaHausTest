@@ -20,8 +20,8 @@
         />
       </div>
     </div>
-    <p class="text-lg text-blue-600 font-semibold mt-5 text-center">
+    <h3 class="text-lg text-blue-600 font-semibold mt-5 text-center">
       Crear una nueva lista
-    </p>
+    </h3>
   </div>
 </template>
